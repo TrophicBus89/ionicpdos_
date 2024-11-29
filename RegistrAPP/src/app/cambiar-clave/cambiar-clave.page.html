@@ -1,0 +1,52 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-back-button defaultHref="menu"></ion-back-button>
+    </ion-buttons>
+    <ion-title>Cambiar Contraseña</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true" class="ion-padding centrar-contenido">
+  <ion-item>
+    <ion-label position="stacked">Contraseña Actual</ion-label>
+    <ion-input
+      type="password"
+      [(ngModel)]="contrasenaActual"
+      placeholder="Ingresa tu contraseña actual"
+    ></ion-input>
+  </ion-item>
+
+  <ion-item>
+    <ion-label position="stacked">Nueva Contraseña</ion-label>
+    <ion-input
+      type="password"
+      [(ngModel)]="nuevaContrasena"
+      placeholder="Ingresa la nueva contraseña"
+    ></ion-input>
+    <ion-note color="danger" *ngIf="!esValidaContrasena(nuevaContrasena) && nuevaContrasena">
+      La contraseña debe tener al menos 6 caracteres, una mayúscula, una minúscula y un número.
+    </ion-note>
+  </ion-item>
+
+  <ion-item>
+    <ion-label position="stacked">Repetir Nueva Contraseña</ion-label>
+    <ion-input
+      type="password"
+      [(ngModel)]="repetirContrasena"
+      placeholder="Repite la nueva contraseña"
+    ></ion-input>
+    <ion-note color="danger" *ngIf="nuevaContrasena !== repetirContrasena && repetirContrasena">
+      Las contraseñas no coinciden.
+    </ion-note>
+  </ion-item>
+
+  <ion-button
+    expand="block"
+    color="primary"
+    [disabled]="!puedeCambiarContrasena()"
+    (click)="cambiarContrasena()"
+  >
+    Aceptar
+  </ion-button>
+</ion-content>

@@ -1,0 +1,391 @@
+{
+  "asignaturas": [
+    {
+      "id": "1",
+      "codigo": "EAY4450",
+      "nombre": "Ética para el trabajo",
+      "seccion": "003D",
+      "profesor_id": "8"
+    },
+    {
+      "id": "2",
+      "codigo": "MAT4140",
+      "nombre": "Estadística descriptiva",
+      "seccion": "006D",
+      "profesor_id": "2"
+    },
+    {
+      "id": "5",
+      "codigo": "PGY4121",
+      "nombre": "Programación móvil",
+      "seccion": "004D",
+      "profesor_id": "8"
+    },
+    {
+      "id": "4",
+      "codigo": "AVP1150",
+      "nombre": "Arquitectura de software",
+      "seccion": "001D",
+      "profesor_id": "8"
+    },
+    {
+      "id": "3",
+      "codigo": "PGY4121",
+      "nombre": "Programación móvil",
+      "seccion": "006D",
+      "profesor_id": "8"
+    },
+    {
+      "id": "6",
+      "codigo": "PGY4121",
+      "nombre": "Programación móvil",
+      "seccion": "005D",
+      "profesor_id": "3"
+    }
+  ],
+  "usuarios": [
+    {
+      "id": "1",
+      "tipo": "alumno",
+      "correo": "a",
+      "contrasena": "a",
+      "nombre": "Juan",
+      "apellido": "Pérez",
+      "asignaturas_inscritas": [
+        "3",
+        "4",
+        "1"
+      ]
+    },
+    {
+      "id": "2",
+      "tipo": "profesor",
+      "correo": "JaBon@duocuc.cl",
+      "contrasena": "contraseñaP",
+      "nombre": "Javier",
+      "apellido": "Bonifacio"
+    },
+    {
+      "id": "3",
+      "tipo": "profesor",
+      "correo": "patriYa@duocuc.cl",
+      "contrasena": "contraseñaaaaP",
+      "nombre": "Patricio",
+      "apellido": "Yañez"
+    },
+    {
+      "id": "4",
+      "tipo": "profesor",
+      "correo": "SaCar@duocuc.cl",
+      "contrasena": "s76HwKQXgdTKvdT",
+      "nombre": "Samuel",
+      "apellido": "Cárdenaz"
+    },
+    {
+      "id": "5",
+      "tipo": "alumno",
+      "correo": "alumno2@example.cl",
+      "contrasena": "contraseña2",
+      "nombre": "María",
+      "apellido": "López",
+      "asignaturas_inscritas": [
+        "1",
+        "3"
+      ]
+    },
+    {
+      "id": "6",
+      "tipo": "alumno",
+      "correo": "alumno3@example.cl",
+      "contrasena": "contraseña3",
+      "nombre": "Carlos",
+      "apellido": "García",
+      "asignaturas_inscritas": [
+        "5"
+      ]
+    },
+    {
+      "id": "7",
+      "tipo": "alumno",
+      "correo": "alumno4@example.cl",
+      "contrasena": "Lalo7000",
+      "nombre": "Lucía",
+      "apellido": "Martínez",
+      "asignaturas_inscritas": [
+        "2",
+        "6"
+      ]
+    },
+    {
+      "id": "8",
+      "tipo": "profesor",
+      "correo": "e",
+      "contrasena": "e",
+      "nombre": "Skibidi",
+      "apellido": "Pomni",
+      "asignaturas_inscritas": [
+        "3",
+        "4",
+        "1",
+        "5"
+      ]
+    },
+    {
+      "id": "9",
+      "tipo": "alumno",
+      "correo": "mmmm",
+      "contrasena": "Hola123456",
+      "nombre": "Pablo",
+      "apellido": "Torres",
+      "asignaturas_inscritas": [
+        "1",
+        "2"
+      ]
+    },
+    {
+      "id": "10",
+      "tipo": "alumno",
+      "correo": "x",
+      "contrasena": "x",
+      "nombre": "Renato",
+      "apellido": "Carreño",
+      "asignaturas_inscritas": [
+        "1",
+        "3"
+      ]
+    }
+  ],
+  "asistencias": [
+    {
+      "id": "1",
+      "alumno_id": "1",
+      "asignatura_id": "1",
+      "fecha": "2024-10-29",
+      "estado": "presente"
+    },
+    {
+      "id": "2",
+      "alumno_id": "1",
+      "asignatura_id": "2",
+      "fecha": "2024-10-30",
+      "estado": "ausente"
+    },
+    {
+      "id": "3",
+      "alumno_id": "2",
+      "asignatura_id": "3",
+      "fecha": "2024-11-01",
+      "estado": "presente"
+    },
+    {
+      "id": "4",
+      "alumno_id": "3",
+      "asignatura_id": "2",
+      "fecha": "2024-11-02",
+      "estado": "ausente"
+    },
+    {
+      "id": "5",
+      "alumno_id": "4",
+      "asignatura_id": "1",
+      "fecha": "2024-11-03",
+      "estado": "presente"
+    },
+    {
+      "id": "6",
+      "alumno_id": "1",
+      "asignatura_id": "3",
+      "fecha": "2024-11-04",
+      "estado": "presente"
+    },
+    {
+      "id": "7",
+      "alumno_id": "1",
+      "asignatura_id": "3",
+      "fecha": "2024-11-05",
+      "estado": "presente"
+    },
+    {
+      "id": "8",
+      "alumno_id": "2",
+      "asignatura_id": "1",
+      "fecha": "2024-11-05",
+      "estado": "ausente"
+    },
+    {
+      "id": "9",
+      "alumno_id": "3",
+      "asignatura_id": "3",
+      "fecha": "2024-11-05",
+      "estado": "presente"
+    },
+    {
+      "id": "10",
+      "alumno_id": "4",
+      "asignatura_id": "2",
+      "fecha": "2024-11-06",
+      "estado": "ausente"
+    },
+    {
+      "id": "11",
+      "alumno_id": "2",
+      "asignatura_id": "2",
+      "fecha": "2024-11-07",
+      "estado": "presente"
+    },
+    {
+      "id": "12",
+      "alumno_id": "3",
+      "asignatura_id": "1",
+      "fecha": "2024-11-07",
+      "estado": "ausente"
+    },
+    {
+      "id": "13",
+      "alumno_id": "1",
+      "asignatura_id": "1",
+      "fecha": "2024-11-08",
+      "estado": "ausente"
+    },
+    {
+      "id": "14",
+      "alumno_id": "2",
+      "asignatura_id": "3",
+      "fecha": "2024-11-08",
+      "estado": "presente"
+    },
+    {
+      "id": "15",
+      "alumno_id": "3",
+      "asignatura_id": "2",
+      "fecha": "2024-11-09",
+      "estado": "presente"
+    },
+    {
+      "id": "16",
+      "alumno_id": "4",
+      "asignatura_id": "1",
+      "fecha": "2024-11-09",
+      "estado": "ausente"
+    },
+    {
+      "id": "17",
+      "alumno_id": "1",
+      "asignatura_id": "3",
+      "fecha": "2024-11-10",
+      "estado": "ausente"
+    },
+    {
+      "id": "18",
+      "alumno_id": "1",
+      "asignatura_id": "2",
+      "fecha": "2024-11-11",
+      "estado": "presente"
+    },
+    {
+      "id": "19",
+      "alumno_id": "2",
+      "asignatura_id": "1",
+      "fecha": "2024-11-11",
+      "estado": "presente"
+    },
+    {
+      "id": "20",
+      "alumno_id": "3",
+      "asignatura_id": "3",
+      "fecha": "2024-11-12",
+      "estado": "ausente"
+    },
+    {
+      "id": "21",
+      "alumno_id": "4",
+      "asignatura_id": "2",
+      "fecha": "2024-11-13",
+      "estado": "presente"
+    },
+    {
+      "id": "22",
+      "alumno_id": "1",
+      "asignatura_id": "1",
+      "fecha": "2024-11-13",
+      "estado": "presente"
+    },
+    {
+      "id": "23",
+      "alumno_id": "2",
+      "asignatura_id": "2",
+      "fecha": "2024-11-14",
+      "estado": "ausente"
+    },
+    {
+      "id": "24",
+      "alumno_id": "3",
+      "asignatura_id": "3",
+      "fecha": "2024-11-15",
+      "estado": "presente"
+    },
+    {
+      "id": "25",
+      "alumno_id": "4",
+      "asignatura_id": "1",
+      "fecha": "2024-11-16",
+      "estado": "ausente"
+    },
+    {
+      "id": "26",
+      "alumno_id": "1",
+      "asignatura_id": "4",
+      "fecha": "2024-11-11",
+      "estado": "presente"
+    },
+    {
+      "id": "27",
+      "alumno_id": "1",
+      "asignatura_id": "3",
+      "fecha": "2024-11-20",
+      "estado": "presente"
+    },
+    {
+      "id": "28",
+      "alumno_id": "5",
+      "asignatura_id": "3",
+      "fecha": "2024-11-20",
+      "estado": "ausente"
+    },
+    {
+      "id": "29",
+      "alumno_id": "10",
+      "asignatura_id": "3",
+      "fecha": "2024-11-20",
+      "estado": "ausente"
+    },
+    {
+      "id": "30",
+      "alumno_id": "1",
+      "asignatura_id": "1",
+      "fecha": "2024-11-16",
+      "estado": "presente"
+    },
+    {
+      "id": "31",
+      "alumno_id": "5",
+      "asignatura_id": "1",
+      "fecha": "2024-11-16",
+      "estado": "ausente"
+    },
+    {
+      "id": "32",
+      "alumno_id": "9",
+      "asignatura_id": "1",
+      "fecha": "2024-11-16",
+      "estado": "ausente"
+    },
+    {
+      "id": "33",
+      "alumno_id": "10",
+      "asignatura_id": "1",
+      "fecha": "2024-11-16",
+      "estado": "ausente"
+    }
+  ]
+}

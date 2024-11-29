@@ -1,0 +1,193 @@
+{
+  "asistencias": [
+    {
+      "id": "1",
+      "alumno_id": "1",
+      "asignatura_id": "EAY4450",
+      "fecha": "2024-10-29",
+      "estado": "presente"
+    },
+    {
+      "id": "2",
+      "alumno_id": "1",
+      "asignatura_id": "MAT4140",
+      "fecha": "2024-10-30",
+      "estado": "ausente"
+    },
+    {
+      "id": "3",
+      "alumno_id": "2",
+      "asignatura_id": "PGY4121",
+      "fecha": "2024-11-01",
+      "estado": "presente"
+    },
+    {
+      "id": "4",
+      "alumno_id": "3",
+      "asignatura_id": "MAT4140",
+      "fecha": "2024-11-02",
+      "estado": "ausente"
+    },
+    {
+      "id": "5",
+      "alumno_id": "4",
+      "asignatura_id": "EAY4450",
+      "fecha": "2024-11-03",
+      "estado": "presente"
+    },
+    {
+      "id": "6",
+      "alumno_id": "1",
+      "asignatura_id": "PGY4121",
+      "fecha": "2024-11-04",
+      "estado": "presente"
+    },
+    {
+      "id": "7",
+      "alumno_id": "1",
+      "asignatura_id": "PGY4121",
+      "fecha": "2024-11-05",
+      "estado": "presente"
+    },
+    {
+      "id": "8",
+      "alumno_id": "2",
+      "asignatura_id": "EAY4450",
+      "fecha": "2024-11-05",
+      "estado": "ausente"
+    },
+    {
+      "id": "9",
+      "alumno_id": "3",
+      "asignatura_id": "PGY4121",
+      "fecha": "2024-11-05",
+      "estado": "presente"
+    },
+    {
+      "id": "10",
+      "alumno_id": "4",
+      "asignatura_id": "MAT4140",
+      "fecha": "2024-11-06",
+      "estado": "ausente"
+    },
+    {
+      "id": "11",
+      "alumno_id": "2",
+      "asignatura_id": "MAT4140",
+      "fecha": "2024-11-07",
+      "estado": "presente"
+    },
+    {
+      "id": "12",
+      "alumno_id": "3",
+      "asignatura_id": "EAY4450",
+      "fecha": "2024-11-07",
+      "estado": "ausente"
+    },
+    {
+      "id": "13",
+      "alumno_id": "1",
+      "asignatura_id": "EAY4450",
+      "fecha": "2024-11-08",
+      "estado": "ausente"
+    },
+    {
+      "id": "14",
+      "alumno_id": "2",
+      "asignatura_id": "PGY4121",
+      "fecha": "2024-11-08",
+      "estado": "presente"
+    },
+    {
+      "id": "15",
+      "alumno_id": "3",
+      "asignatura_id": "MAT4140",
+      "fecha": "2024-11-09",
+      "estado": "presente"
+    },
+    {
+      "id": "16",
+      "alumno_id": "4",
+      "asignatura_id": "EAY4450",
+      "fecha": "2024-11-09",
+      "estado": "ausente"
+    },
+    {
+      "id": "17",
+      "alumno_id": "1",
+      "asignatura_id": "PGY4121",
+      "fecha": "2024-11-10",
+      "estado": "ausente"
+    },
+    {
+      "id": "18",
+      "alumno_id": "1",
+      "asignatura_id": "MAT4140",
+      "fecha": "2024-11-11",
+      "estado": "presente"
+    },
+    {
+      "id": "19",
+      "alumno_id": "2",
+      "asignatura_id": "EAY4450",
+      "fecha": "2024-11-11",
+      "estado": "presente"
+    },
+    {
+      "id": "20",
+      "alumno_id": "3",
+      "asignatura_id": "PGY4121",
+      "fecha": "2024-11-12",
+      "estado": "ausente"
+    },
+    {
+      "id": "21",
+      "alumno_id": "4",
+      "asignatura_id": "MAT4140",
+      "fecha": "2024-11-13",
+      "estado": "presente"
+    },
+    {
+      "id": "22",
+      "alumno_id": "1",
+      "asignatura_id": "EAY4450",
+      "fecha": "2024-11-13",
+      "estado": "presente"
+    },
+    {
+      "id": "23",
+      "alumno_id": "2",
+      "asignatura_id": "MAT4140",
+      "fecha": "2024-11-14",
+      "estado": "ausente"
+    },
+    {
+      "id": "24",
+      "alumno_id": "3",
+      "asignatura_id": "PGY4121",
+      "fecha": "2024-11-15",
+      "estado": "presente"
+    },
+    {
+      "id": "25",
+      "alumno_id": "4",
+      "asignatura_id": "EAY4450",
+      "fecha": "2024-11-16",
+      "estado": "ausente"
+    },
+    {
+      "id": "26",
+      "alumno_id": "9",
+      "asignatura_id": "AVP1150",
+      "fecha": "2024-10-30",
+      "estado": "ausente"
+    },
+    {
+      "id": "27",
+      "alumno_id": "10",
+      "asignatura_id": "AVP1150",
+      "fecha": "2024-10-30",
+      "estado": "ausente"
+    }
+  ]
+}

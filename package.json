@@ -1,0 +1,5 @@
+{
+  "dependencies": {
+    "@awesome-cordova-plugins/barcode-scanner": "^6.11.0"
+  }
+}

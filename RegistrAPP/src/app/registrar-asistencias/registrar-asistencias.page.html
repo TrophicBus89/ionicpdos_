@@ -1,0 +1,31 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-back-button defaultHref="menu"></ion-back-button>
+    </ion-buttons>
+    <ion-title>Registrar asistencias</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <div class="ion-text-center">
+    <ion-button (click)="modoEscanear()">Escanear QR</ion-button>
+    <ion-button (click)="mostrarInputsManual()">Modo Manual</ion-button>
+  </div>
+
+  <!-- Inputs para el modo manual -->
+  <div *ngIf="modoManual">
+    <ion-item>
+      <ion-label position="stacked">ID de Asignatura</ion-label>
+      <ion-input [(ngModel)]="idAsignatura" placeholder="Ingresa el ID de la asignatura"></ion-input>
+    </ion-item>
+    <ion-item>
+      <ion-label position="stacked">Fecha (YYYY-MM-DD)</ion-label>
+      <ion-input [(ngModel)]="fecha" placeholder="YYYY-MM-DD"></ion-input>
+    </ion-item>
+    <ion-button expand="block" (click)="registrarAsistenciaManual()">Aceptar</ion-button>
+  </div>
+
+  <!-- Contenedor para el escáner QR -->
+  <div id="qr-reader" style="width: 100%;"></div>
+</ion-content>
